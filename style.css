@@ -1,0 +1,207 @@
+/*General Styles*/
+/*genel ayarlamalar yapıldı*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: opx;
+}
+html,
+body {
+  width: 100%;
+}
+
+/*Colors*/
+/*renk seçimleri yapıldı*/
+div {
+  background-color: rgb(243, 243, 245);
+}
+
+#login-frame {
+  background-color: white;
+}
+input {
+  border-color: rgb(240, 240, 240);
+}
+.login > button {
+  background-color: rgb(57, 129, 223);
+  color: white;
+}
+
+#vergessen > a {
+  color: rgb(114, 147, 219);
+}
+
+#new-account > button {
+  background-color: rgb(42, 190, 42);
+}
+button > a {
+  color: white;
+}
+#language a:nth-last-child(1) {
+  color: rgb(170, 165, 165);
+}
+
+#services a:nth-last-child(1) {
+  color: rgb(170, 165, 165);
+}
+footer {
+  color: rgb(170, 165, 165);
+}
+
+/*Typography*/
+/* Karakter boyutları ve renkleri düzenlendi*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#explain {
+  font-size: 170%;
+}
+input {
+  font-size: 100%;
+}
+.login > button {
+  font-size: 130%;
+  font-weight: 730;
+}
+#new-account > button {
+  font-size: 100%;
+  font-weight: 730;
+}
+
+nav {
+  font-size: 80%;
+}
+footer {
+  font-size: 70%;
+}
+
+/*Genel dizayn yöntemlerı çalışıldı*/
+/*Layout*/
+main {
+  width: 100%;
+  height: 850px;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 700px;
+  width: 100%;
+}
+
+img {
+  width: 60%;
+}
+#info {
+  width: 1.3%;
+}
+#big-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 10%;
+}
+#login-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 90%;
+  height: 50%;
+  margin-bottom: 8%;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+aside {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+#explain {
+  width: 70%;
+  height: 70%;
+  margin-top: 5%;
+}
+
+#face-svg {
+  margin-left: -7%;
+  margin-bottom: -4%;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  display: flex;
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.login > button {
+  margin-top: 5%;
+  padding: 4%;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+#vergessen {
+  width: 100%;
+  height: 30%;
+  margin: 5%;
+  text-align: center;
+}
+
+#new-account {
+  text-align: center;
+  width: 100%;
+}
+#new-account > button {
+  width: 65%;
+  margin-top: 5%;
+  padding: 4%;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+#create-page {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  font-size: 90%;
+  margin-left: 4%;
+}
+nav {
+  margin: 1% 13% 0% 13%;
+}
+
+li {
+  display: inline;
+  padding: 0.5%;
+}
+
+nav hr {
+  margin-left: 4%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+footer {
+  margin: 1% 14% 1% 16%;
+}
+
+/*Components and their states*/
+/* extra componentler düzenlendi*/
+ul {
+  list-style-type: none;
+}
+
+a:visited,
+a:link {
+  color: none;
+  text-decoration: none;
+}
